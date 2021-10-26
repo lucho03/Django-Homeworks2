@@ -1,0 +1,26 @@
+<body>
+    {% include "layer.html" %}
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+    </style>
+    <body>
+    
+    <table style="width:100%">
+        <tr>
+            <th>Time</th>
+            <th>Destination</th>
+            <th>Train</th>
+            <th>Status</th>
+        </tr>
+        {% for data in content %}
+            <tr>
+                <td> {{data.departure_time}} </td>
+                <td>{{data.destination}}</td>
+                <td>{{data.train}}</td>
+                <td>{{data.status}}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>

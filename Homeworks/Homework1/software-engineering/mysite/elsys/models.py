@@ -1,0 +1,12 @@
+from django.db import models
+
+# Create your models here.
+
+class Car(models.Model):
+    color = models.CharField(max_length=100)
+    made = models.DateTimeField(auto_now_add=True)
+    brand = models.CharField(max_length=50)
+    description = models.TextField()
+
+    def __str__(self):
+        return self.brand + ' - ' + self.color + ' - ' + self.description
