@@ -14,5 +14,5 @@ jobs:
     steps:
     - name: Run Tests
       run: |
-        cd Django-Homeworks2
+        cd ../../
         ls
