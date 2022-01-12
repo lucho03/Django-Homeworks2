@@ -14,5 +14,6 @@ jobs:
     steps:
     - name: Run Tests
       run: |
-        cd ../../Django-Homeworks2/Django-Homeworks2/Homeworks
+        cd ../../Django-Homeworks2/Django-Homeworks2/
         ls
+        python3 manage.py test
