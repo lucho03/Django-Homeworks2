@@ -14,4 +14,5 @@ jobs:
     steps:
     - name: Run Tests
       run: |
+        cd Homewroks/Homework4/temperature
         python manage.py test
