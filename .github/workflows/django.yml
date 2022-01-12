@@ -15,5 +15,5 @@ jobs:
     - name: Run Tests
       run: |
         cd ../../
-        cd ./Homeworks/Homework4/temperature
-        python3 manage.py test
+        echo "Proba"
+        ls
