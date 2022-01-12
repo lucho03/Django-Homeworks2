@@ -14,6 +14,4 @@ jobs:
     steps:
     - name: Run Tests
       run: |
-        ls
-        cd Homeworks/Homework4/temperature/
-        python manage.py test
+        python3 ./Django-Homeworks2/Homeworks/Homework4/temperature/manage.py runserver
